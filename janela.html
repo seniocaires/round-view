@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<link href="css/estilo.css" rel="stylesheet" type="text/css"></link>
+		<script src="js/navegador.js" type="text/javascript"></script>
+	</head>
+	<body onload="init()">
+		<div id="painel">
+			<img id="imagemAtual" src="fotos/branco.jpg" />
+		</div>
+		<div id="painelBotoesControles">
+			<table id="botoesControles">
+				<tr>
+					<td id="botoesControlesEsquerda">
+						<img id="botaoEsquerda" src="img/esquerda.png" class="pointer" onclick="proximaFoto('esquerda')"/>
+					</td>
+					<td id="botoesControlesCentro">
+						<img id="botaoCima" src="img/cima.png" class="pointer" onclick="proximaFoto('cima')"/>
+						<br/>
+						<img id="botaoBaixo" src="img/baixo.png" class="pointer" onclick="proximaFoto('baixo')"/>
+					</td>
+					<td id="botoesControlesDireita" >
+						<img id="botaoDireita" src="img/direita.png" class="pointer" onclick="proximaFoto('direita')"/>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="controles-wrapper">
+			<div id="controles">
+				<div id="legenda"></div>
+			</div>
+		</div>
+	</body>
+</html>

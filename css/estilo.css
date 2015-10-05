@@ -1,0 +1,63 @@
+/*
+*@author Senio Caires
+*/
+#controles-wrapper {
+	margin:0 auto;
+	height:42px;
+	width:100%;
+	bottom:0px;
+	left:0;
+	z-index:4;
+	background:url(../img/nav-bg.png) repeat-x;
+	position:fixed;
+}
+#controles {
+	overflow:hidden;
+	height:100%;
+	position:relative;
+	text-align:left;
+	z-index:5;
+}
+#legenda {
+	overflow:hidden;
+	float:left;
+	color:#FFF;
+	font:400 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-shadow:#000 1px 1px 2px;
+	margin:0 20px 0 0;
+	line-height:42px;
+}
+#painel {
+	height:550px;
+}
+#imagemAtual {
+	width:1180px;
+	height:600px;
+}
+#painelBotoesControles{
+	margin:0 auto;
+	width:100%;
+	bottom:43px;
+	left:0;
+	z-index:4;
+	position:fixed;
+}
+#botoesControles{
+	width:100%;
+}
+#botoesControlesEsquerda{
+	text-align:right;
+	vertical-align:center;
+}
+#botoesControlesCentro{
+	width:50px;
+	text-align:center;
+	vertical-align:center;
+}
+#botoesControlesDireita{
+	text-align:left;
+	vertical-align:center;
+}
+.pointer{
+	cursor:pointer;
+}
